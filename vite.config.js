@@ -1,7 +1,5 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-})
+// https://cynder97.github.io/Mod5tutReact
+export default defineConfig({ base: "/Mod5tutReact/", plugins: [react()] });
